@@ -5,7 +5,7 @@ export const ReactionRole: Command = {
     name: "rr",
     description: "Manage reaction roles",
     type: "CHAT_INPUT",
-    run: async (client: Client, interaction: BaseCommandInteraction) => {
+    run: async (client: Client, interaction: BaseCommandInteraction, message: ) => {
         
     }
 };
